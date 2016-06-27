@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+<parameter name="browser" value="chrome">
+</parameter>
+
+     <test verbose="2" name="TestCasesSequentially">
+    <classes>
+      <class name="testcases.TC001_Connections"/>
+      <class name="testcases.TC002_AdvancedSearch"/>
+      <class name="testcases.TC003_EditProfile"/>
+      <class name="testcases.TC004_JobSearch"/>
+      </classes>
+  </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
