@@ -25,12 +25,6 @@ public class TC001_Connections extends LinkedInWrapper{
 		.getConnectionName()
 		.getConnectionNumber()
 		.clickLogout();
-		
-		
-		
-		
-		
-
 	}
 	@BeforeClass
 	public void beforeClass() {
@@ -40,10 +34,4 @@ public class TC001_Connections extends LinkedInWrapper{
 		testDescription="Connection Details Based on Search Keyword ";
 	}
 
-	
-	
-	
-	
-	
-	
 }

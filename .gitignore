@@ -5,7 +5,8 @@ reports
 target
 test-output
 .classpath
+.gitignore
 config.properties
-extent-config
-pom
-testng
+extent-config.xml
+pom.xml
+testng.xml
